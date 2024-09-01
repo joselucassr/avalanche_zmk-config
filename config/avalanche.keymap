@@ -48,7 +48,7 @@
 &trans  &kp Q   &kp W   &kp F   &kp P      &kp B                           &kp J      &kp L   &kp U   &kp Y   &kp SEMI   &trans
 &trans  &trans  &kp A   &kp R   &kp S      &kp T           &kp G                      &kp M   &kp N   &kp E   &kp I      &kp O    &trans    &trans
 &trans  &kp Z   &kp X   &kp C   &kp D      &kp V           &trans  &trans  &trans     &trans  &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH  &trans
-        &trans  &trans  &trans  &kp SPACE  &kp LEFT_SHIFT                  &kp LCTRL  &tog 1  &trans  &trans  &trans
+        &trans  &trans  &trans  &kp SPACE  &kp LEFT_SHIFT                  &kp LCTRL  &to 1   &trans  &trans  &trans
             >;
         };
 
@@ -58,7 +58,7 @@
 &trans  &trans  &trans    &trans    &trans     &trans                     &kp BACKSPACE  &trans    &trans    &kp DEL    &trans     &trans
 &trans  &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &kp M                          &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp CAPS  &trans  &trans
 &trans  &trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans         &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END   &trans  &trans
-        &trans  &trans    &trans    &tog 0     &trans                     &kp ENTER      &tog 2    &trans    &trans     &trans
+        &trans  &trans    &trans    &to 0      &trans                     &kp ENTER      &to 2     &trans    &trans     &trans
             >;
         };
 
@@ -68,7 +68,7 @@
 &trans      &trans        &trans        &trans        &trans        &trans                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            &trans        &trans        &trans        &tog 0        &trans                        &trans  &trans  &trans  &trans  &trans
+            &trans        &trans        &trans        &to 0         &trans                        &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
