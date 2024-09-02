@@ -46,9 +46,19 @@
             bindings = <
 &trans  &kp N1  &kp N2  &kp N3  &kp N4     &kp N5                          &kp N6     &kp N7  &kp N8  &kp N9  &kp N0     &trans
 &trans  &kp Q   &kp W   &kp F   &kp P      &kp B                           &kp J      &kp L   &kp U   &kp Y   &kp SEMI   &trans
-&trans  &trans  &kp A   &kp R   &kp S      &kp T           &kp G                      &kp M   &kp N   &kp E   &kp I      &kp O    &trans    &trans
+&mo 3   &trans  &kp A   &kp R   &kp S      &kp T           &kp G                      &kp M   &kp N   &kp E   &kp I      &kp O    &trans    &trans
 &trans  &kp Z   &kp X   &kp C   &kp D      &kp V           &trans  &trans  &trans     &trans  &kp K   &kp H   &kp COMMA  &kp DOT  &kp FSLH  &trans
-        &trans  &trans  &trans  &kp SPACE  &kp LEFT_SHIFT                  &kp LCTRL  &to 1   &trans  &trans  &trans
+        &trans  &trans  &trans  &kp SPACE  &kp LEFT_SHIFT                  &kp LCTRL  &trans  &to 2   &trans  &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&trans  &trans     &trans      &trans         &trans        &trans                          &trans  &trans        &trans        &trans        &trans        &trans
+&trans  &kp ESC    &kp LS(AT)  &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                   &trans  &kp LS(AMPS)  &kp LS(STAR)  &kp SEMI      &kp BSPC      &trans
+&trans  &trans     &kp TAB     &trans         &trans        &trans         &kp SQT                  &kp BSLH      &kp LS(LBRC)  &kp LS(RBRC)  &kp CAPS      &kp ENTER  &trans  &trans
+&trans  &kp TILDE  &trans      &trans         &trans        &kp LS(DQT)    &trans   &trans  &trans  &trans        &kp LBKT      &kp LS(LPAR)  &kp LS(RPAR)  &kp RBKT   &trans  &trans
+        &trans     &trans      &trans         &trans        &trans                          &trans  &trans        &trans        &trans        &trans
             >;
         };
 
@@ -58,7 +68,7 @@
 &trans  &trans  &trans    &trans    &trans     &trans                     &kp BACKSPACE  &trans    &trans    &kp DEL    &trans     &trans
 &trans  &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &kp M                          &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT  &kp CAPS  &trans  &trans
 &trans  &trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans         &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END   &trans  &trans
-        &trans  &trans    &trans    &to 0      &trans                     &kp ENTER      &to 2     &trans    &trans     &trans
+        &trans  &trans    &to 0     &trans     &trans                     &kp ENTER      &trans    &trans    &trans     &trans
             >;
         };
 
@@ -68,7 +78,17 @@
 &trans      &trans        &trans        &trans        &trans        &trans                        &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-            &trans        &trans        &trans        &to 0         &trans                        &trans  &trans  &trans  &trans  &trans
+            &trans        &trans        &to 0         &trans        &trans                        &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &kp F10  &kp F11  &kp F12    &trans                          &trans     &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &kp F7   &kp F8   &kp F9     &trans                          &trans     &kp N7    &kp N8  &kp N9  &trans  &trans
+&trans  &trans  &trans   &kp F4   &kp F5     &kp F6          &trans                     &trans    &kp N4  &kp N5  &kp N6  &trans  &trans  &trans
+&trans  &trans  &kp F1   &kp F2   &kp F3     &trans          &trans  &trans  &trans     &trans    &kp N0  &kp N1  &kp N2  &kp N3  &trans  &trans
+        &trans  &trans   &trans   &kp SPACE  &kp LEFT_SHIFT                  &kp LCTRL  &kp BSPC  &trans  &trans  &trans
             >;
         };
     };
