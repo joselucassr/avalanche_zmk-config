@@ -64,11 +64,11 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans    &trans    &trans     &trans                     &trans     &trans    &trans    &trans     &trans         &trans
-&trans  &trans  &trans    &trans    &trans     &trans                     &trans     &trans    &trans    &trans     &kp BACKSPACE  &trans
-&trans  &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &kp M                      &kp LEFT  &kp DOWN  &kp UP     &kp RIGHT      &kp ENTER  &trans  &trans
-&trans  &trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans     &trans    &kp HOME  &kp PG_DN  &kp PG_UP      &kp END    &trans  &trans
-        &trans  &trans    &to 0     &trans     &trans                     &kp ENTER  &trans    &to 4     &trans     &trans
+&trans  &trans  &trans    &trans   &trans    &trans                          &trans            &trans        &trans    &trans     &trans         &trans
+&trans  &trans  &trans    &trans   &trans    &trans                          &trans            &trans        &trans    &trans     &kp BACKSPACE  &trans
+&trans  &trans  &kp LGUI  &kp TAB  &kp CAPS  &trans          &kp M                             &kp LEFT      &kp DOWN  &kp UP     &kp RIGHT      &kp ENTER  &trans  &trans
+&trans  &trans  &trans    &trans   &trans    &trans          &trans  &trans  &trans            &trans        &kp HOME  &kp PG_DN  &kp PG_UP      &kp END    &trans  &trans
+        &trans  &trans    &to 0    &trans    &kp LEFT_SHIFT                  &kp LEFT_CONTROL  &kp LEFT_ALT  &to 4     &trans     &trans
             >;
         };
 
