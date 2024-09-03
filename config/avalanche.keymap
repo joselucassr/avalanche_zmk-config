@@ -33,7 +33,7 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <58 59>;
-            layers = <0 2>;
+            layers = <0 2 4>;
             timeout-ms = <50>;
         };
     };
