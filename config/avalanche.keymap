@@ -58,7 +58,7 @@
 &trans  &kp N1  &kp N2        &kp N3  &kp N4     &kp N5                          &kp N6     &kp N7        &kp N8  &kp N9  &kp N0     &kp EQUAL
 &trans  &kp Q   &kp W         &kp F   &kp P      &kp B                           &kp J      &kp L         &kp U   &kp Y   &kp SEMI   &kp MINUS
 &mo 3   &trans  &kp A         &kp R   &kp S      &kp T           &kp G                      &kp M         &kp N   &kp E   &kp I      &kp O      &kp SINGLE_QUOTE  &trans
-&trans  &kp Z   &kp X         &kp C   &kp D      &kp V           &trans  &trans  &trans     &trans        &kp K   &kp H   &kp COMMA  &kp DOT    &kp FSLH          &trans
+&trans  &kp Z   &kp X         &kp C   &kp D      &kp V           &trans  &trans  &trans     &trans        &kp K   &kp H   &kp COMMA  &kp DOT    &kp ABNT_C1          &trans
         &trans  &kp LEFT_WIN  &trans  &kp SPACE  &kp LEFT_SHIFT                  &kp LCTRL  &kp LEFT_ALT  &to 2   &trans  &trans
             >;
         };
