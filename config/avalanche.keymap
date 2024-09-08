@@ -59,9 +59,9 @@
             bindings = <
 &trans  &kp N1   &kp N2           &kp N3           &kp N4        &kp N5                             &kp N6       &kp N7           &kp N8             &kp N9        &kp N0           &kp EQUAL
 &trans  &kp Q    &kp W            &kp F            &kp P         &kp B                              &kp J        &kp L            &kp U              &kp Y         &kp SEMI         &kp MINUS
-&mo 5   &trans   &bhm LEFT_WIN A  &bhm LEFT_ALT R  &bhm LCTRL S  &bhm LEFT_SHIFT T  &kp G                        &kp M            &bhm LEFT_SHIFT N  &bhm LCTRL E  &bhm LEFT_ALT I  &bhm LEFT_WIN O  &kp SINGLE_QUOTE  &trans
+&mo 6   &trans   &bhm LEFT_WIN A  &bhm LEFT_ALT R  &bhm LCTRL S  &bhm LEFT_SHIFT T  &kp G                        &kp M            &bhm LEFT_SHIFT N  &bhm LCTRL E  &bhm LEFT_ALT I  &bhm LEFT_WIN O  &kp SINGLE_QUOTE  &trans
 &trans  &lt 8 Z  &kp X            &kp C            &kp D         &kp V              &trans  &trans  &trans       &trans           &kp K              &kp H         &kp COMMA        &kp DOT          &lt 8 A           &trans
-        &trans   &trans           &lt 3 ESCAPE     &lt 1 SPACE   &lt 2 TAB                          &lt 4 ENTER  &lt 6 BACKSPACE  &lt 7 DELETE       &trans        &trans
+        &trans   &trans           &lt 3 ESCAPE     &lt 1 SPACE   &lt 2 TAB                          &lt 5 ENTER  &lt 4 BACKSPACE  &lt 7 DELETE       &trans        &trans
             >;
         };
 
@@ -95,6 +95,16 @@
             >;
         };
 
+        num {
+            bindings = <
+&trans  &trans    &trans     &trans   &trans  &trans                        &trans  &trans  &trans     &trans     &trans    &trans
+&trans  &kp LBKT  &kp N7     &kp N8   &kp N9  &kp RBKT                      &trans  &trans  &trans     &trans     &trans    &trans
+&trans  &trans    &kp SEMI   &kp N4   &kp N5  &kp N6     &kp EQUAL                  &trans  &kp LSHFT  &kp LCTRL  &kp LALT  &kp LGUI  &trans  &trans
+&trans  &kp SQT   &kp N1     &kp N2   &kp N3  &kp BSLH   &trans     &trans  &trans  &trans  &trans     &trans     &trans    &trans    &trans  &trans
+        &trans    &kp COMMA  &kp DOT  &kp N0  &kp MINUS                     &trans  &trans  &trans     &trans     &trans
+            >;
+        };
+
         sym {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
@@ -112,16 +122,6 @@
 &trans      &trans        &trans        &trans        &trans        &trans        &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             &trans        &trans        &trans        &trans        &trans                        &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        num {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
