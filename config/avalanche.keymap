@@ -2,6 +2,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 
 / {
     behaviors {
@@ -60,7 +61,7 @@
 &trans  &kp Q    &kp W            &kp F            &kp P         &kp B                              &kp J        &kp L            &kp U              &kp Y         &kp SEMI         &kp MINUS
 &mo 5   &trans   &bhm LEFT_WIN A  &bhm LEFT_ALT R  &bhm LCTRL S  &bhm LEFT_SHIFT T  &kp G                        &kp M            &bhm LEFT_SHIFT N  &bhm LCTRL E  &bhm LEFT_ALT I  &bhm LEFT_WIN O  &kp SINGLE_QUOTE  &trans
 &trans  &lt 8 Z  &kp X            &kp C            &kp D         &kp V              &trans  &trans  &trans       &trans           &kp K              &kp H         &kp COMMA        &kp DOT          &lt 8 A           &trans
-        &trans   &trans           &lt 2 ESCAPE     &lt 1 SPACE   &lt 3 TAB                          &lt 4 ENTER  &lt 6 BACKSPACE  &lt 7 DELETE       &trans        &trans
+        &trans   &trans           &lt 3 ESCAPE     &lt 1 SPACE   &lt 2 TAB                          &lt 4 ENTER  &lt 6 BACKSPACE  &lt 7 DELETE       &trans        &trans
             >;
         };
 
@@ -74,17 +75,17 @@
             >;
         };
 
-        media {
+        mouse {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans    &trans    &trans     &trans                     &trans      &trans       &trans          &trans            &trans            &trans
+&trans  &trans  &trans    &trans    &trans     &trans                     &kp K_REDO  &kp K_PASTE  &kp K_COPY      &kp K_CUT         &kp K_UNDO        &trans
+&trans  &trans  &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT  &trans                      &trans       &mmv MOVE_LEFT  &mmv MOVE_DOWN    &mmv MOVE_UP      &mmv MOVE_RIGHT  &trans             &trans
+&trans  &trans  &trans    &trans    &trans     &trans     &trans  &trans  &trans      &trans       &trans          &mwh SCROLL_LEFT  &mwh SCROLL_DOWN  &mwh SCROLL_UP   &mwh SCROLL_RIGHT  &trans
+        &trans  &trans    &trans    &trans     &trans                     &mkp RCLK   &mkp LCLK    &mkp MCLK       &trans            &trans
             >;
         };
 
-        mouse {
+        media {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
